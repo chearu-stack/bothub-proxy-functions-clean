@@ -1,3 +1,7 @@
 [build]
   # Чистое имя папки функций, которое ищет Netlify
   functions = "netlify/functions"
+
+[build.environment]
+  # Указываем современную версию Node.js (20.x), которая нативно поддерживает fetch
+  NODE_VERSION = "20"
