@@ -1,0 +1,12 @@
+{
+  "name": "bothub-proxy-functions",
+  "version": "1.0.0",
+  "description": "Serverless proxy for BotHub API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-fetch": "2.6.7" 
+  }
+}
