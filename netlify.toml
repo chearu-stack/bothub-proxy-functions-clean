@@ -1,0 +1,3 @@
+[build]
+  # Чистое имя папки функций, которое ищет Netlify
+  functions = "netlify/functions"
