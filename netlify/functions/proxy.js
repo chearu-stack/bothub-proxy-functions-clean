@@ -1,4 +1,4 @@
-const BOTHUB_API_URL = "https://api.bothub.io/v1/chat/completions";
+const BOTHUB_API_URL = "https://bothub.chat/api/v2/openai/v1/chat/completions";
 
 exports.handler = async (event) => {
     // Получаем секретный ключ из настроек Netlify
